@@ -1,0 +1,53 @@
+.head{
+    width: 100%;
+    background-color: var(--branco);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.optionsLista{
+    display: flex;
+    list-style: none;
+    
+}
+
+.optionsLista button{
+
+    font-family: var(--rubik);
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+.listaBtn{
+    margin-right: 32px;
+    color: var(--very-dark-blue);
+    background-color: var(--brnaco);
+    padding: 10px;
+    border: none;
+}
+
+.listaBtn:hover{
+    color: var(--soft-red);
+}
+
+.listaBtnLogin{
+    background-color: var(--soft-red);
+    color: var(--branco);
+    border-radius: 5px;
+    padding: 11px 26px;
+    border-width: 0;
+}
+
+.listaBtnLogin:hover{
+    background-color: var(--branco);
+    color: var(--soft-red);
+    border-width: 1px;
+    padding: 10px 25px;
+    border-color:  red;
+}

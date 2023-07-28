@@ -1,5 +1,28 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Rubik';
+  src: url('assets/fonts/Rubik-Regular.ttf') format('ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'RubikMedium';
+  src: url('assets/fonts/Rubik-Medium.ttf') format('ttf');
+  font-weight: 500;
+}
+
+:root{
+  --soft-blue: hsl(231, 69%, 60%);
+  --soft-red: hsl(0, 94%, 66%);
+  --grayish-blue: hsl(229, 8%, 60%);
+  --very-dark-blue: hsl(229, 31%, 21%);
+  --branco: hsl(0, 0%, 100%);
+  --preton:hsl(232, 30%, 20%);
+  --rubik: 'Rubik';
+  --rubik-medium: 'RubikMedium';
+}
+
+body {
+  font-family: var(--rubik);
 }
 
 .App-logo {
