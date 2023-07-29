@@ -1,0 +1,32 @@
+
+.tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabButtons button{
+    color: var(--grayish-blue);
+    background-color: var(--branco);
+    border: none;
+    padding: 15px 60px;
+    cursor: pointer;
+
+    border-bottom: 2px solid var(--grayish-blue);
+    margin-bottom: 40px;
+
+    font-size: 16px;
+}
+
+.tabButtons button:hover{
+    color: var(--soft-red);
+}
+
+.tabButtons button.active {
+   border-bottom: 3px solid var(--soft-red);
+   color: black;
+}
+
+.tabContent{
+    width: 100%;
+}

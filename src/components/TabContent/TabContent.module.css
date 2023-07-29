@@ -1,0 +1,30 @@
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15%;
+}
+
+.texto p{
+    margin-bottom: 30px;
+}
+
+.texto h2{
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.texto button{
+    width: 30%;
+    padding: 15px 30px;
+    background-color: var(--soft-blue);
+    color: var(--branco);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

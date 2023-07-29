@@ -1,0 +1,25 @@
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.titulo{
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.paragrafo{
+    width: 40%;
+    text-align: center;
+    color: var(--grayish-blue);
+    margin-bottom: 50px;
+}
+
+.tab{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
