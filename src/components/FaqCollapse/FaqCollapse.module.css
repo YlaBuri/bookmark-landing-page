@@ -1,0 +1,32 @@
+.icone {
+    transform: rotate(180deg);
+}
+
+.collapseContainer{
+    width: 90%;
+    border-top: 1px solid var(--grayish-blue);
+    padding: 10px 0;
+    
+}
+
+.question{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.question button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.textQuestion{
+    font-weight: 500;
+   
+}
+
+.question:hover{
+    text-decoration: color(#fff);    
+}

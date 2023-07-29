@@ -1,0 +1,42 @@
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.titulo{
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.paragrafo{
+    width: 40%;
+    text-align: center;
+    color: var(--grayish-blue);
+    margin-bottom: 50px;
+}
+
+.listQuestions{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    width: 15%;
+    padding: 15px 30px;
+    background-color: var(--soft-blue);
+    color: var(--branco);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--branco);
+    color: var(--soft-blue);
+    padding: 14px 29px;
+    border: 1px solid var(--soft-blue);
+}
