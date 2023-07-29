@@ -28,3 +28,10 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+.texto button:hover{
+    background-color: var(--branco);
+    color: var(--soft-blue);
+    padding: 14px 29px;
+    border: 1px solid var(--soft-blue);
+}

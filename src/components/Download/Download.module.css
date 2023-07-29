@@ -1,0 +1,23 @@
+.download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.cards{
+    display: flex;
+    height: 490px;
+}
+
+.download p{
+    width: 40%;
+    text-align: center;
+    color: var(--grayish-blue);
+    margin-bottom: 50px;
+}
+
+.download h2{
+    font-size: 34px;
+    font-weight: 500;
+}
