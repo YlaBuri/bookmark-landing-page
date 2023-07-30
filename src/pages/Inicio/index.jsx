@@ -5,6 +5,7 @@ import Principal from 'components/Principal'
 import Feature from 'components/Features'
 import Download from 'components/Download'
 import Faq from 'components/Faq'
+import Contact from 'components/Contact'
 export default function Inicio() {
   return (
     <div className={styles.content}>
@@ -13,6 +14,7 @@ export default function Inicio() {
         <Feature/>
         <Download/>
         <Faq/>
+        <Contact/>
     </div>
   )
 }

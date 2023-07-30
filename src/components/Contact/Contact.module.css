@@ -1,0 +1,85 @@
+.contact{
+    width: 100%;
+    background-color: var(--soft-blue);
+    /* position: absolute;
+    bottom: 0;
+    left: -12.5%;
+    right: 0; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+   
+}
+
+.contact p{
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--branco);
+}
+
+.contact h2{
+    color: var(--branco);
+}
+
+form{
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.campo{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+
+}
+
+input{
+
+    width: 92%;
+    padding: 10px 10px;
+    border: none;
+    /* height: 35px; */
+    border-radius: 5px;
+}
+
+.invalid{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    border-color: var(--soft-red);
+    border-radius: 5px;
+    background-color:  var(--soft-red);
+    border: 3px solid var(--soft-red);
+}
+
+form .btn{
+    background-color: var(--soft-red);
+    color: var(--branco);
+    border-radius: 5px;
+    padding: 11px 26px;
+    cursor: pointer;
+    border-width: 0;
+}
+
+form .btn:hover {
+    background-color: var(--branco);
+    color: var(--soft-red);
+    border-width: 1px;
+    padding: 10px 25px;
+    border-color:  red;
+}
+
+form label{
+    width: 92%;
+    background-color: var(--soft-red);
+    color: var(--branco);
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
