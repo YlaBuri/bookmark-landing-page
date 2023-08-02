@@ -21,6 +21,7 @@
 
 .texto button{
     width: 50%;
+    min-width: 120px;
     padding: 15px 30px;
     background-color: var(--soft-blue);
     color: var(--branco);
@@ -35,3 +36,20 @@
     padding: 14px 29px;
     border: 1px solid var(--soft-blue);
 }
+
+.containerImg{
+    position: relative;
+}
+
+.backgroundSvg {
+    position: absolute;
+    transform: rotate(180deg);
+    bottom: -20%;
+    left: -100%;
+    width: 170%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+    background-image: url("assets/images/backgroud.svg");
+    
+  }

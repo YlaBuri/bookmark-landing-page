@@ -32,6 +32,7 @@
     color: var(--branco);
     border: none;
     border-radius: 5px;
+    min-width: 60px;
     cursor: pointer;
 }
 

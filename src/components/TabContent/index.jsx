@@ -8,6 +8,7 @@ export default function TabContent({srcImg,altImg, titulo, descricao}) {
         <div className={styles.content}>
             <div className={styles.containerImg}>
                 <img src={srcImg} alt={altImg}/>
+                <div class={styles.backgroundSvg}></div>
             </div>
 
             <div className={styles.texto}>
