@@ -41,7 +41,7 @@ form{
 
 input{
 
-    width: 92%;
+   
     padding: 10px 10px;
     border: none;
     /* height: 35px; */
@@ -54,6 +54,7 @@ input{
     flex-direction: column;
     border-color: var(--soft-red);
     border-radius: 5px;
+    padding: 0 2px;
     background-color:  var(--soft-red);
     border: 3px solid var(--soft-red);
 }
@@ -76,10 +77,10 @@ form .btn:hover {
 }
 
 form label{
-    width: 92%;
+
     background-color: var(--soft-red);
     color: var(--branco);
-    padding: 5px 10px;
+    padding: 5px 0;
     font-size: 12px;
     border-radius: 5px;
 }

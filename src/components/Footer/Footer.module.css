@@ -1,0 +1,76 @@
+.footer{
+    width: 100%; 
+    margin: 0 auto;
+    background-color: var(--very-dark-blue);
+    height: 60px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contentFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.options{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.optionsLista{
+    display: flex;
+    list-style: none;
+    
+}
+
+.optionsLista button{
+
+    font-family: var(--rubik);
+    color: var(--branco);
+    background-color: transparent;
+    border: none;
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+.listaBtn:hover{
+    color: var(--soft-red);
+}
+
+.redesSociais{
+    display: flex;
+    width: 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoF{
+    width: 24px;
+    height: 24px;
+    background-image: url("assets/images/icon-facebook.svg");
+    cursor: pointer;
+}
+
+.logoF:hover{
+    background-image: url("assets/images/icon-facebook-fundo-vermelho.svg");
+}
+
+.logoT{
+    width: 24px;
+    height: 20px;
+    background-image: url("assets/images/icon-twitter.svg");
+    cursor: pointer;
+}
+
+.logoT:hover{
+    background-image: url("assets/images/icon-twitter-fundo-vermelho.svg");
+}

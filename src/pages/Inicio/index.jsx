@@ -6,6 +6,7 @@ import Feature from 'components/Features'
 import Download from 'components/Download'
 import Faq from 'components/Faq'
 import Contact from 'components/Contact'
+import Footer from 'components/Footer'
 export default function Inicio() {
   return (
     <div className={styles.content}>
@@ -15,6 +16,7 @@ export default function Inicio() {
         <Download/>
         <Faq/>
         <Contact/>
+        <Footer/>
     </div>
   )
 }
