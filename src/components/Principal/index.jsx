@@ -17,7 +17,7 @@ export default function Principal() {
           <img src={imagem} alt='Tablet'/>
           
       </div>
-      <div class={styles.backgroundSvg}></div>
+      <div className={styles.backgroundSvg}></div>
     </div>
   )
 }

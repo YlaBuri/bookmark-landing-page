@@ -32,7 +32,7 @@ export default function Download() {
       
       <div className={styles.cards}>
         {cards.map((card, index) => (
-          <CardNavegador nome={card.nome} srcImg={card.srcImg} minVersion={card.versao} index={index}/>
+          <CardNavegador key={index} nome={card.nome} srcImg={card.srcImg} minVersion={card.versao} index={index}/>
         ))}
       </div>
     </div>

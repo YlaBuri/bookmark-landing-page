@@ -30,7 +30,7 @@ export default function Faq() {
 
             <div className={styles.listQuestions}>
                 {faqs.map((faq, index) => (
-                    <FaqCollapse question={faq.question} answer={faq.answer}/>
+                    <FaqCollapse key={index} question={faq.question} answer={faq.answer}/>
                 ))}
             </div>
 

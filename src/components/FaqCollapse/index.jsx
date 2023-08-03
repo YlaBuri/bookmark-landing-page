@@ -24,7 +24,7 @@ export default function FaqCollapse({question, answer}) {
 
         <div className={styles.answer}>
             {!isCollapsed && (
-                <div className="collapse-content">
+                <div className={styles.collapseContainer}>
                     <p>{answer}</p>
                 </div>
             )}
