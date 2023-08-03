@@ -26,7 +26,7 @@
 .card button{
     width: 80%;
     padding: 15px 30px;
-
+    
     background-color: var(--soft-blue);
     color: var(--branco);
     border: none;
@@ -41,3 +41,12 @@
     border: 1px solid var(--soft-blue);
 }
 
+@media (max-width: 768px){
+    .card .imgLogo{
+        width: 50%;
+    }
+
+    .card{
+        margin-top: 0;
+    }
+}

@@ -9,6 +9,10 @@
     
 }
 
+.menu{
+    display: none;
+}
+
 .optionsLista{
     display: flex;
     list-style: none;
@@ -51,4 +55,20 @@
     border-width: 1px;
     padding: 10px 25px;
     border-color:  red;
+}
+
+@media (max-width: 768px){
+
+    .head{
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    .options{
+        display: none;
+        width: 100%
+    }
+
+    .menu{
+        display: block;
+    }
 }

@@ -74,3 +74,43 @@
 .logoT:hover{
     background-image: url("assets/images/icon-twitter-fundo-vermelho.svg");
 }
+
+@media (max-width: 768px){
+
+    .footer{
+        height: auto;
+    }
+
+    .contentFooter{
+        margin: 30px 0;
+        flex-direction: column;
+    }
+
+    .options{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+       
+    }
+
+    .optionsLista{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        
+    }
+
+    .optionsLista li{
+        margin-top: 10px;
+    }
+
+    .redesSociais{
+        margin-top: 10px;
+        width: auto;
+    }
+
+    .logoF{
+        margin-right: 20px;
+    }
+}

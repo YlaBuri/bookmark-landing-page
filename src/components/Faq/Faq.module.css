@@ -27,6 +27,7 @@
 
 .btn{
     width: 15%;
+    min-width: 120px;
     padding: 15px 30px;
     background-color: var(--soft-blue);
     color: var(--branco);
@@ -41,4 +42,17 @@
     color: var(--soft-blue);
     padding: 14px 29px;
     border: 1px solid var(--soft-blue);
+}
+
+@media (max-width: 768px){
+    .titulo, .paragrafo{
+        text-align: center;
+    }
+    .paragrafo{
+        width: 100%;
+    }
+
+    .btn{
+        width: 45%;
+    }
 }

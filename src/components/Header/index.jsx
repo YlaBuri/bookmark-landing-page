@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Header.module.css'
 import logoSvg from 'assets/images/logo-bookmark.svg'
-
+import imgMenu from 'assets/images/icon-hamburger.svg'
 
 export default function Header() {
   return (
@@ -9,6 +9,10 @@ export default function Header() {
       
       <div className={styles.logo}>
         <img src={logoSvg} alt='Logo'/>
+      </div>
+
+      <div className={styles.menu}>
+        <img src={imgMenu} alt='Menu hamburguer'/>
       </div>
 
       <div className={styles.options}>

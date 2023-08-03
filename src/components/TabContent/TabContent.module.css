@@ -12,6 +12,7 @@
 
 .texto p{
     margin-bottom: 30px;
+    color: var(--grayish-blue);
 }
 
 .texto h2{
@@ -53,3 +54,21 @@
     background-image: url("assets/images/backgroud.svg");
     
   }
+
+@media (max-width: 768px){
+    .content{
+        flex-direction: column;
+    }
+    .texto{
+        margin-top: 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .texto bottom{
+        margin: 0 auto;
+    }
+
+    
+    
+}

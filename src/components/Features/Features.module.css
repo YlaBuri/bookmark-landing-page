@@ -24,3 +24,15 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media (max-width: 768px){
+    .feature{
+        width: 90%;
+    }
+    .paragrafo{
+        width: 100%;
+    }
+    .tab{
+        width: 100%;
+    }
+}

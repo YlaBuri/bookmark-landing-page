@@ -22,3 +22,24 @@
     font-size: 34px;
     font-weight: 500;
 }
+
+@media (max-width: 768px){
+
+    .download{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .download h2{
+        text-align: center;
+    }
+
+    .download p{
+        width: 100%;
+    }
+
+    .cards{
+        flex-direction: column;
+        height: auto;
+    }
+}

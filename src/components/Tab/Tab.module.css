@@ -30,3 +30,17 @@
 .tabContent{
     width: 100%;
 }
+
+@media (max-width: 768px){
+
+    .tabButtons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tabButtons button{
+        width: 100%;
+        border: none;
+        margin: 5px 0;
+    }
+}
