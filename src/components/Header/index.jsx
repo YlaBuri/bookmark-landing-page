@@ -27,14 +27,18 @@ export default function Header() {
 
       {menuOpen && (
         <div className={styles.menuContainer}>
-          <div className={styles.menuContainerLogo}>
+          <div>
+
+            <div className={styles.menuContainerLogo}>
             <img src={logoBrancoSvg} alt='Logo'/>
             <button onClick={handleMenuClick} className={styles.btnMenu}><ImgFechar/></button>
           </div>
 
           <ul className={styles.menuContainerOptionsLista}>
             <hr />
-                <li><button className={styles.listaBtn}>Features</button></li>
+                <li>
+                  <button className={styles.listaBtn}>Features</button>
+                </li>
             <hr />
                 <li><button className={styles.listaBtn}>Pricing</button></li>
             <hr />
@@ -42,13 +46,23 @@ export default function Header() {
             <hr />
                 <li><button className={`${styles.listaBtn} ${styles.menuContainerOptionsListaBtnLogin}`}>Login</button></li>
           </ul>
+          </div>
+          
+          
+          
+          <div className={styles.redesSociais}>
+                <div className={styles.logoF}></div>
+                <div className={styles.logoT}></div>
+          </div>
        </div>
       )}
       
 
       <div className={styles.options}>
           <ul className={styles.optionsLista}>
-            <li><button className={styles.listaBtn}>Features</button></li>
+            <li>
+              <button className={styles.listaBtn}>Features</button>
+            </li>
             <li><button className={styles.listaBtn}>Pricing</button></li>
             <li><button className={styles.listaBtn}>Contact</button></li>
             <li><button className={styles.listaBtnLogin}>Login</button></li>

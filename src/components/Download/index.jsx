@@ -25,6 +25,8 @@ export default function Download() {
     },
   ];
 
+  const cardClasses = ['chrome', 'mozila', 'opera'];
+
   return (
     <div className={styles.download}>
       <h2>Download the extension</h2>
@@ -32,7 +34,7 @@ export default function Download() {
       
       <div className={styles.cards}>
         {cards.map((card, index) => (
-          <CardNavegador key={index} nome={card.nome} srcImg={card.srcImg} minVersion={card.versao} index={index}/>
+          <CardNavegador classNameCard={cardClasses[index % cardClasses.length]} key={index} nome={card.nome} srcImg={card.srcImg} minVersion={card.versao} index={index}/>
         ))}
       </div>
     </div>

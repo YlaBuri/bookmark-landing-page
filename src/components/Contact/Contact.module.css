@@ -28,24 +28,37 @@ form{
     width: 30%;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .campo{
     width: 65%;
     display: flex;
-    flex-direction: column;
-    border-radius: 5px;
+    
+}
 
+.campoInput{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width:100%
 }
 
 input{
-
-   
+    padding-right: 32px; /* Adicione espaço à direita para acomodar o ícone */
+    flex: 1;
     padding: 10px 10px;
     border: none;
     /* height: 35px; */
     border-radius: 5px;
+    outline: none;
+}
+
+
+.icon{
+    display: block;
+    position: absolute;
+    right: 8px; 
 }
 
 .invalid{

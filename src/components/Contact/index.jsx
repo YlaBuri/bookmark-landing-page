@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from './Contact.module.css'
-
+import { ReactComponent as IconErro } from 'assets/images/icon-error.svg'
 export default function Contact() {
 
   const [email, setEmail] = useState('');
@@ -27,7 +27,13 @@ export default function Contact() {
 
         <form action="">
           <div className={erroEmail !== '' ? `${styles.invalid}` : `${styles.campo} `  }>
-            <input type='email' id="email" value={email}  onChange={handleChangeEmail} onBlur={emailIsValid} />
+            
+            <div className={styles.campoInput}>
+              <input type='email' id="email" value={email}  onChange={handleChangeEmail} onBlur={emailIsValid} />
+              {erroEmail && <IconErro className={styles.icon}/>}
+
+            </div>
+            
             {erroEmail && <label>{erroEmail}</label>}
           </div>
           <button className={styles.btn}>Contact Us</button>
